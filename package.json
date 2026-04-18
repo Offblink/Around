@@ -1,0 +1,20 @@
+{
+  "name": "lan-chat-server",
+  "version": "1.0.0",
+  "description": "Browser-based LAN Chat App - Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "crypto-js": "^4.2.0",
+    "express": "^4.18.x",
+    "mime-types": "^3.0.2",
+    "multer": "^2.1.1",
+    "ws": "^8.13.x"
+  },
+  "engines": {
+    "node": ">=16.x"
+  }
+}
