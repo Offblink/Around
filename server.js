@@ -441,5 +441,5 @@ function markUserOffline(id) {
 }
 
 server.listen(3000, () => {
-  console.log('🚀 服务端启动');
+  console.log('🚀 服务端启动（文件传输修复版）');
 });
